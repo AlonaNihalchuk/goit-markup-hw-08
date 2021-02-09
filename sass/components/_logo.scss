@@ -1,0 +1,21 @@
+.logo {
+  display: block;
+  margin-bottom: 20px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: $accent-color;
+
+  margin-right: 93px;
+  @extend %a;
+}
+
+.logo-dark {
+  color: $dark-logo-color;
+}
+
+.logo-white {
+  color: $hero-color;
+}
