@@ -31,7 +31,6 @@
 }
 
 .features .container, .activities .container, .team .container, .clients .container, .footer .container, .main-container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -92,7 +91,7 @@ svg {
 }
 
 .header-container {
-  outline: darkmagenta;
+  outline: 1px solid red;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -102,6 +101,18 @@ svg {
 @media screen and (min-width: 480px) {
   .header-container {
     width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-container {
+    width: 1200px;
   }
 }
 
@@ -118,12 +129,16 @@ svg {
   min-height: 60px;
 }
 
-.site-nav {
-  display: none;
+@media screen and (max-width: 1199px) {
+  .site-nav {
+    display: none;
+  }
 }
 
-.contacts {
-  display: none;
+@media screen and (max-width: 1199px) {
+  .contacts {
+    display: none;
+  }
 }
 
 .logo {
