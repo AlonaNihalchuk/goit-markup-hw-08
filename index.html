@@ -22,6 +22,30 @@
       <div class="header-container">
         <nav class="nav-container">
           <a href="/" class="logo">Web<span class="logo-dark">Studio</span></a>
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+          >
+            <svg
+              class="menu-icons"
+              width="40"
+              height="40"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use
+                class="icon-cross"
+                href="./images/sprite.svg#icon-close_40px-2-1"
+              ></use>
+              <use
+                class="icon-menu"
+                href="./images/sprite.svg#icon-menu_40px-4-1"
+              ></use>
+            </svg>
+
+            <div class="menu-container" id="menu-container"></div>
+          </button>
 
           <ul class="list site-nav">
             <li class="item">
